@@ -406,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LOADGAME
+  m_Text: OPTIONS
 --- !u!222 &246745106
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1943,7 +1943,6 @@ GameObject:
   - component: {fileID: 541841137}
   - component: {fileID: 541841136}
   - component: {fileID: 541841135}
-  - component: {fileID: 541841141}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -2216,18 +2215,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541841133}
   m_CullTransparentMesh: 0
---- !u!114 &541841141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541841133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d76307a2f0fbc7e40b9f22525e87d7ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &567777429
 GameObject:
   m_ObjectHideFlags: 0
