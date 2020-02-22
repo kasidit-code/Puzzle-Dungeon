@@ -1334,7 +1334,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446205321}
-  - component: {fileID: 446205320}
   - component: {fileID: 446205319}
   m_Layer: 0
   m_Name: ButtonManager
@@ -1353,18 +1352,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f7b36640bb6ade45ad9719ccb1ab00d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &446205320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446205318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d76307a2f0fbc7e40b9f22525e87d7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &446205321
@@ -2268,13 +2255,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446205320}
+      - m_Target: {fileID: 686237210}
         m_MethodName: ButtonMoveScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: Game
           m_BoolArgument: 0
@@ -2600,8 +2587,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686237207}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -945.9368, y: -542.06866, z: -44.19742}
-  m_LocalScale: {x: 3.1132078, y: 3.1132078, z: 3.1132078}
+  m_LocalPosition: {x: -945.9369, y: -542.06866, z: -44.197426}
+  m_LocalScale: {x: 3.1132083, y: 3.1132083, z: 3.1132085}
   m_Children:
   - {fileID: 468832975}
   m_Father: {fileID: 281576985}
@@ -2639,7 +2626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 686237209}
-  thisScene: 0
   movedScene: 1
 --- !u!1 &790056694
 GameObject:

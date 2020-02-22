@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MoveSceneFade : MonoBehaviour
+public class MoveSceneFadeButton : MonoBehaviour
 {
 
     public Animator animator;
