@@ -157,11 +157,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4f4c9625029f39499c2e8991de005e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 269ed3125f1280e41ab97f3e28e12064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1272411282}
-  smoothing: 0.05
+  smoothing: 0.025
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -437,9 +437,9 @@ GameObject:
   - component: {fileID: 1272411282}
   - component: {fileID: 1272411281}
   - component: {fileID: 1272411280}
-  - component: {fileID: 1272411285}
   - component: {fileID: 1272411284}
   - component: {fileID: 1272411283}
+  - component: {fileID: 1272411285}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -590,11 +590,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1272411279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f203556c51a9ec7419f07fab1006caf3, type: 3}
+  m_Script: {fileID: 11500000, guid: 38dade12a7475fc448cc959b9dfc41ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 8
+  speed: 16
 --- !u!1 &1651709130
 GameObject:
   m_ObjectHideFlags: 0
