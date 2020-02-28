@@ -291,7 +291,7 @@ MonoBehaviour:
   moveSpeed: 2
   target: {fileID: 1272411282}
   chaseRadius: 4
-  attackRadius: 1
+  attackRadius: 1.2
   homePosition: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
