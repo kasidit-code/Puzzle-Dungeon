@@ -178,8 +178,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -665659411
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -5034061168752090764, guid: fca7648d693fae34a801c69141d7820a,
     type: 3}
@@ -205,7 +205,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &221258947
 Animator:
@@ -285,14 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a104dfac86a184e9fb02e2728f398a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
-  enemyName: logkung
-  baseAttack: 1
-  moveSpeed: 2
-  target: {fileID: 1272411282}
-  chaseRadius: 4
-  attackRadius: 1.2
-  homePosition: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +445,75 @@ PolygonCollider2D:
       - {x: 0.6333263, y: 0.40457344}
       - {x: 0.63188696, y: 1.2580307}
       - {x: -0.46411943, y: 1.3096073}
+--- !u!1001 &944077439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.091005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.3362584
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149150749401783924, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818867439442414561, guid: e576452f8d5644b49bc4efbfb312f31c,
+        type: 3}
+      propertyPath: m_Name
+      value: Map
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e576452f8d5644b49bc4efbfb312f31c, type: 3}
 --- !u!1 &1156767179
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +682,7 @@ Transform:
   - {fileID: 1651709131}
   - {fileID: 685343338}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1272411283
 BoxCollider2D:
