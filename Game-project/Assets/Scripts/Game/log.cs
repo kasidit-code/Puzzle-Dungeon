@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class log : Enemy
+public class Log : Enemy
 {
 
     public Transform target;
