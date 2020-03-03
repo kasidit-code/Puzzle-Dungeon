@@ -285,6 +285,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a104dfac86a184e9fb02e2728f398a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 2
+  enemyName: log kung
+  baseAttack: 1
+  moveSpeed: 2
+  target: {fileID: 0}
+  chaseRadius: 4
+  attackRadius: 1
+  homePosition: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
