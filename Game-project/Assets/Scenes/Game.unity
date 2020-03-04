@@ -640,9 +640,11 @@ GameObject:
   - component: {fileID: 898175492}
   - component: {fileID: 898175491}
   - component: {fileID: 898175490}
+  - component: {fileID: 898175493}
+  - component: {fileID: 898175494}
   m_Layer: 0
   m_Name: Pot
-  m_TagString: Untagged
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -732,12 +734,43 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898175489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2347775, y: -1.5361348, z: 0}
+  m_LocalPosition: {x: 5, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &898175493
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898175489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 051978dc3f78cd94e8d7683d02174510, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &898175494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898175489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa34ecaf8bf92e4081fc883fc78170e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &925880940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,10 +1259,9 @@ PrefabInstance:
     - target: {fileID: 7908872160953874326, guid: 044f1fd9114cd8a4ca5094360927ee89,
         type: 3}
       propertyPath: thrust
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7908872160953874326, guid: 044f1fd9114cd8a4ca5094360927ee89, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044f1fd9114cd8a4ca5094360927ee89, type: 3}
 --- !u!1001 &9188048752458209757
 PrefabInstance:
