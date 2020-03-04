@@ -42,7 +42,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Signs
+  - name: Objects
     uniqueID: 1619704283
     locked: 0
   - name: Monster
