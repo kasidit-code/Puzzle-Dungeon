@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7908872160367559018}
   - component: {fileID: 7908872160367559019}
+  - component: {fileID: 1210109940556913183}
   m_Layer: 0
   m_Name: tophitbox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,6 +63,20 @@ PolygonCollider2D:
       - {x: 0.6333263, y: 0.40457344}
       - {x: 0.63188696, y: 1.2580307}
       - {x: -0.46411943, y: 1.3096073}
+--- !u!114 &1210109940556913183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908872160367559017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47842fb71257d14e85b75886983b977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &7908872160700276427
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,9 +87,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7908872160700276428}
   - component: {fileID: 7908872160700276429}
+  - component: {fileID: 1351695304641200632}
   m_Layer: 0
   m_Name: righthitbox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,6 +139,20 @@ PolygonCollider2D:
       - {x: 1.3220377, y: -0.46357113}
       - {x: 1.3594375, y: 0.38838768}
       - {x: 0.64943504, y: 0.69742626}
+--- !u!114 &1351695304641200632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908872160700276427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47842fb71257d14e85b75886983b977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &7908872160953874319
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +167,7 @@ GameObject:
   - component: {fileID: 7908872160953874324}
   - component: {fileID: 7908872160953874323}
   - component: {fileID: 7908872160953874325}
-  - component: {fileID: 7908872160953874326}
+  - component: {fileID: 5531337358476163896}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -200,7 +230,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 614907269
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 20ba4d73760a6ed42aac39a57ef304cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -266,7 +296,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00039458275, y: -0.46622407}
+  m_Offset: {x: 0.003776811, y: -0.5285554}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -277,7 +307,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6253352, y: 0.43821335}
+  m_Size: {x: 0.5063743, y: 0.3135507}
   m_EdgeRadius: 0
 --- !u!114 &7908872160953874325
 MonoBehaviour:
@@ -293,20 +323,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   speed: 16
---- !u!114 &7908872160953874326
-MonoBehaviour:
+  startingPosition: {fileID: 0}
+--- !u!61 &5531337358476163896
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7908872160953874319}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a47842fb71257d14e85b75886983b977, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thrust: 4
-  knockTime: 0.4
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0037166476, y: -0.0817616}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 3, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6289252, y: 1.3053126}
+  m_EdgeRadius: 0
 --- !u!1 &7908872161329534922
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,9 +360,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7908872161329534923}
   - component: {fileID: 7908872161329534924}
+  - component: {fileID: 4186481012770378451}
   m_Layer: 0
   m_Name: lefthitbox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,6 +412,20 @@ PolygonCollider2D:
       - {x: -0.73377705, y: -0.11167514}
       - {x: -0.677855, y: 0.69398123}
       - {x: -1.2767329, y: 0.39183205}
+--- !u!114 &4186481012770378451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908872161329534922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47842fb71257d14e85b75886983b977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 3
+  knockTime: 0.4
 --- !u!1 &7908872161543482542
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,9 +436,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7908872161543482543}
   - component: {fileID: 7908872161543482544}
+  - component: {fileID: 4535315243524991004}
   m_Layer: 0
   m_Name: downhitbox
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -429,3 +488,17 @@ PolygonCollider2D:
       - {x: -0.4559641, y: -1.2784884}
       - {x: 0.5723009, y: -1.2692282}
       - {x: 0.704998, y: -0.43234518}
+--- !u!114 &4535315243524991004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908872161543482542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47842fb71257d14e85b75886983b977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 3
+  knockTime: 0.4
