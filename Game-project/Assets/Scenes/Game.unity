@@ -365,13 +365,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 2
+  maxHealth: {fileID: 11400000, guid: af6c4efc2ec9f7541afcc66eee0cd0a1, type: 2}
+  health: 1
   enemyName: log kung
   baseAttack: 1
   moveSpeed: 2
   target: {fileID: 1272411282}
   chaseRadius: 4.5
-  attackRadius: 1.2
+  attackRadius: 1
   homePosition: {fileID: 0}
   anim: {fileID: 221258947}
 --- !u!114 &221258951
@@ -387,7 +388,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 4
-  knockTime: 0.2
+  knockTime: 0.4
+  damage: 0
 --- !u!61 &221258952
 BoxCollider2D:
   m_ObjectHideFlags: 0
