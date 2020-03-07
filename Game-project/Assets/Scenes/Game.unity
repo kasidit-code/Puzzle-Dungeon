@@ -466,17 +466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a104dfac86a184e9fb02e2728f398a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  maxHealth: {fileID: 11400000, guid: af6c4efc2ec9f7541afcc66eee0cd0a1, type: 2}
-  health: 1
-  enemyName: log kung
-  baseAttack: 1
-  moveSpeed: 2
-  target: {fileID: 1272411282}
-  chaseRadius: 4.5
-  attackRadius: 1
-  homePosition: {fileID: 0}
-  anim: {fileID: 221258947}
 --- !u!114 &221258951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,7 +1323,8 @@ PrefabInstance:
         type: 3}
       propertyPath: startingPosition
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3901d78d7c133d64db79154cdf182407,
+        type: 2}
     - target: {fileID: 7908872161329534922, guid: 044f1fd9114cd8a4ca5094360927ee89,
         type: 3}
       propertyPath: m_TagString
