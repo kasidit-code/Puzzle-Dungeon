@@ -17,7 +17,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InHouse/Housefloor2.unity
     guid: 01d36311cb4a1134e9d2bc8e694a178d
-  - enabled: 1
-    path: Assets/Scenes/InHouse/SecretRoom.unity
-    guid: ab390b54a2e571b43ac07ab4e69816d9
   m_configObjects: {}
