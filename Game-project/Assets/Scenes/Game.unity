@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 4
   knockTime: 0.4
-  damage: 0
+  damage: 1
 --- !u!61 &221258952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1258,6 +1258,8 @@ MonoBehaviour:
   emptyHeart: {fileID: -9053378900703536071, guid: ab5dfa1ad9dd35d4b9fdd6c9cd196e96,
     type: 3}
   heartContainers: {fileID: 11400000, guid: f75d764093c478c429812e7eccc7090f, type: 2}
+  playerCurrentHealth: {fileID: 11400000, guid: c53eca07e08159541a7be8356c90226b,
+    type: 2}
 --- !u!1001 &1119448734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1576,13 +1578,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e939fc88647f841469d31a69d607a51f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 0}
+  signal: {fileID: 11400000, guid: 34e6805105205f842b0f1b08bf8a49d3, type: 2}
   signalEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1838248056}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1097372891}
+        m_MethodName: UpdateHearts
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1798,6 +1800,18 @@ PrefabInstance:
       propertyPath: startingPosition
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7908872160953874325, guid: 044f1fd9114cd8a4ca5094360927ee89,
+        type: 3}
+      propertyPath: playerHealthSignal
+      value: 
+      objectReference: {fileID: 11400000, guid: 34e6805105205f842b0f1b08bf8a49d3,
+        type: 2}
+    - target: {fileID: 7908872160953874325, guid: 044f1fd9114cd8a4ca5094360927ee89,
+        type: 3}
+      propertyPath: currentHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: c53eca07e08159541a7be8356c90226b,
+        type: 2}
     - target: {fileID: 7908872161329534922, guid: 044f1fd9114cd8a4ca5094360927ee89,
         type: 3}
       propertyPath: m_TagString
