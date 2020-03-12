@@ -2261,7 +2261,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &541841139
@@ -2624,7 +2624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 686237209}
-  movedScene: 1
+  movedScene: 2
 --- !u!1 &790056694
 GameObject:
   m_ObjectHideFlags: 0
