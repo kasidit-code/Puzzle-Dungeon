@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1942881119665552788}
   - component: {fileID: 4934383756423699070}
   - component: {fileID: 2688443514167499457}
-  - component: {fileID: 1684246301734677566}
   - component: {fileID: 1119448736}
   m_Layer: 0
   m_Name: sign
@@ -138,23 +137,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9755924}
   m_EdgeRadius: 0
---- !u!114 &1684246301734677566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2433848125457457685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b61c98881e173245b197c32b53f0c48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  context: {fileID: 0}
-  playerInRange: 0
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
-  dialog: ' Adventurer''s house'
 --- !u!114 &1119448736
 MonoBehaviour:
   m_ObjectHideFlags: 0

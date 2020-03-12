@@ -31,13 +31,13 @@ public class Sign : Interactable
             }
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if(other.CompareTag("Player") && !other.isTrigger)
-        {
-            context.Raise();
-            playerInRange = false;
-            dialogBox.SetActive(false);
-        }
-    }
+    // private void OnTriggerExit2D(Collider2D other)
+    // {
+    //     if(other.CompareTag("Player") && !other.isTrigger)
+    //     {
+    //         context.Raise();
+    //         playerInRange = false;
+    //         dialogBox.SetActive(false);
+    //     }
+    // }
 }
