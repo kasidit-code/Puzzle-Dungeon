@@ -352,6 +352,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   context: {fileID: 11400000, guid: c259a24eefec98b46b87271a710d54a1, type: 2}
   playerInRange: 0
+  contents: {fileID: 11400000, guid: 8ea71526f4969544c9829e31901694da, type: 2}
+  playerInventory: {fileID: 11400000, guid: 761e2a3071a624743a6fa494f0dbfd36, type: 2}
+  isOpen: 0
+  raisedItem: {fileID: 11400000, guid: eccd73ad70a781b49af5967713486608, type: 2}
+  dialogBox: {fileID: 2027289806}
+  dialogText: {fileID: 61651295}
 --- !u!61 &835162020
 BoxCollider2D:
   m_ObjectHideFlags: 0

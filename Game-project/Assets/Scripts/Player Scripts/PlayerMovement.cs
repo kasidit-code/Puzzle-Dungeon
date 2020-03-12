@@ -5,6 +5,7 @@ using UnityEngine;
 public enum PlayerState {
     walk,
     attack,
+    interact,
     stagger,
     idle
 }
@@ -18,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
+    public Inventory playerInventory;
+    public SpriteRenderer receiveItemSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // IS the Player in an interaction
+        if(currentState == PlayerState.interact)
+        {
+            return ;
+        }
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
@@ -51,7 +59,29 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
-        currentState = PlayerState.walk;
+        if(currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    public void RaiseItem()
+    {
+        if(playerInventory.currentItem != null)
+        {
+            if(currentState != PlayerState.interact)
+            {
+                animator.SetBool("receive item", true);
+                currentState = PlayerState.interact;
+                receiveItemSprite.sprite = playerInventory.currentItem.itemSprite;
+            }
+            else{
+                animator.SetBool("receive item", false);
+                currentState = PlayerState.idle;
+                receiveItemSprite.sprite = null;
+            }
+        }
+        
     }
 
     void UpdateAnimationAndMove() {
