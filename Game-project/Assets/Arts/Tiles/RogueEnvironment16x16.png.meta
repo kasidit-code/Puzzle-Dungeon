@@ -1382,7 +1382,7 @@ TextureImporter:
       name: RogueEnvironment16x16_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 30
         y: 240
         width: 16
         height: 16
@@ -5184,9 +5184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5205,9 +5205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5226,9 +5226,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5247,9 +5247,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5268,9 +5268,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5289,9 +5289,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5310,9 +5310,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5331,9 +5331,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5352,9 +5352,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 16
+        y: 3
         width: 16
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5490,195 +5490,6 @@ TextureImporter:
       bones: []
       spriteID: f918d44a067b111b0800000000000000
       internalID: -5687563228690939489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_196
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbe14cd3942eb0920800000000000000
-      internalID: 2957706384495615676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_197
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d02573237cfc2490800000000000000
-      internalID: -7769557685674630954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_198
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae8e480cf2b2221f0800000000000000
-      internalID: -1071246277267363606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_199
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40c92fee5dcacf380800000000000000
-      internalID: -8936077525773018108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_200
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9717ef35d5aa1fa0800000000000000
-      internalID: -5829164432358959204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_201
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5a06a6500afc2ce0800000000000000
-      internalID: -1428492102422623651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_202
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34a80809439ad4370800000000000000
-      internalID: 8308482930796169795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_203
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c84b03769686b82e0800000000000000
-      internalID: -2122487997462956916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RogueEnvironment16x16_204
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9be862fe584d7d790800000000000000
-      internalID: -7505296582281621831
       vertices: []
       indices: 
       edges: []
