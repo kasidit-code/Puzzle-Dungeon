@@ -172,7 +172,9 @@ MonoBehaviour:
   enemyName: loggy
   baseAttack: 1
   moveSpeed: 2
-  target: {fileID: 0}
+  deathEffect: {fileID: 3260100872878447941, guid: e8363e23ec439914089394593419b42c,
+    type: 3}
+  target: {fileID: 7908872160953874322, guid: 044f1fd9114cd8a4ca5094360927ee89, type: 3}
   chaseRadius: 4.5
   attackRadius: 0.7
   homePosition: {fileID: 0}
