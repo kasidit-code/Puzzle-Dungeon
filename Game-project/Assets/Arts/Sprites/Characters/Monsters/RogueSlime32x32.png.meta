@@ -1,0 +1,2011 @@
+fileFormatVersion: 2
+guid: bd17f0de084fcbc4fad65263faeb8c68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5795695171724641234
+    second: RogueSlime32x32_0
+  - first:
+      213: 1300874799495109061
+    second: RogueSlime32x32_1
+  - first:
+      213: -2810575274505143168
+    second: RogueSlime32x32_2
+  - first:
+      213: 2298183484355109453
+    second: RogueSlime32x32_3
+  - first:
+      213: 8651345433671523993
+    second: RogueSlime32x32_4
+  - first:
+      213: 8222118592933544823
+    second: RogueSlime32x32_5
+  - first:
+      213: 5406931554400538404
+    second: RogueSlime32x32_6
+  - first:
+      213: -2588031415092027557
+    second: RogueSlime32x32_7
+  - first:
+      213: 242109291291434160
+    second: RogueSlime32x32_8
+  - first:
+      213: 7545676233063213474
+    second: RogueSlime32x32_9
+  - first:
+      213: 4803123845306719607
+    second: RogueSlime32x32_10
+  - first:
+      213: 8797771745307036509
+    second: RogueSlime32x32_11
+  - first:
+      213: 7541590782383603988
+    second: RogueSlime32x32_12
+  - first:
+      213: 7926113794062133240
+    second: RogueSlime32x32_13
+  - first:
+      213: 3015125034244934492
+    second: RogueSlime32x32_14
+  - first:
+      213: 2458997147917669108
+    second: RogueSlime32x32_15
+  - first:
+      213: -4893514430281239191
+    second: RogueSlime32x32_16
+  - first:
+      213: 7031981463281467664
+    second: RogueSlime32x32_17
+  - first:
+      213: -2707584414123341309
+    second: RogueSlime32x32_18
+  - first:
+      213: -4521735012157549048
+    second: RogueSlime32x32_19
+  - first:
+      213: -5405688843431355008
+    second: RogueSlime32x32_20
+  - first:
+      213: 6625719336494549581
+    second: RogueSlime32x32_21
+  - first:
+      213: 4730212906201188152
+    second: RogueSlime32x32_22
+  - first:
+      213: -749003270005249431
+    second: RogueSlime32x32_23
+  - first:
+      213: -5535182080706370887
+    second: RogueSlime32x32_24
+  - first:
+      213: -7894809072208115939
+    second: RogueSlime32x32_25
+  - first:
+      213: -6862483963949990438
+    second: RogueSlime32x32_26
+  - first:
+      213: -1308781751457791179
+    second: RogueSlime32x32_27
+  - first:
+      213: -4421026127242983046
+    second: RogueSlime32x32_28
+  - first:
+      213: 709139320323142169
+    second: RogueSlime32x32_29
+  - first:
+      213: 5254032735242284738
+    second: RogueSlime32x32_30
+  - first:
+      213: -1305915669341755985
+    second: RogueSlime32x32_31
+  - first:
+      213: -9211568370509198123
+    second: RogueSlime32x32_32
+  - first:
+      213: -2910920839944047571
+    second: RogueSlime32x32_33
+  - first:
+      213: 7743384262669333855
+    second: RogueSlime32x32_34
+  - first:
+      213: -5746476711215643311
+    second: RogueSlime32x32_35
+  - first:
+      213: -3719644825548761290
+    second: RogueSlime32x32_36
+  - first:
+      213: -2364180353287592478
+    second: RogueSlime32x32_37
+  - first:
+      213: 8313433768046941703
+    second: RogueSlime32x32_38
+  - first:
+      213: 4560540365135639752
+    second: RogueSlime32x32_39
+  - first:
+      213: 4731804847825551515
+    second: RogueSlime32x32_40
+  - first:
+      213: 278650385848395176
+    second: RogueSlime32x32_41
+  - first:
+      213: 6498601760331362512
+    second: RogueSlime32x32_42
+  - first:
+      213: -3533393424391520164
+    second: RogueSlime32x32_43
+  - first:
+      213: -1432633720957258073
+    second: RogueSlime32x32_44
+  - first:
+      213: -3255782800392652045
+    second: RogueSlime32x32_45
+  - first:
+      213: 8717308516191764674
+    second: RogueSlime32x32_46
+  - first:
+      213: -4130389468985233500
+    second: RogueSlime32x32_47
+  - first:
+      213: 2754138503376233175
+    second: RogueSlime32x32_48
+  - first:
+      213: -2030572583923822134
+    second: RogueSlime32x32_49
+  - first:
+      213: 9068271249594378962
+    second: RogueSlime32x32_50
+  - first:
+      213: -2204540762971946801
+    second: RogueSlime32x32_51
+  - first:
+      213: -2770597504080401712
+    second: RogueSlime32x32_52
+  - first:
+      213: 1363946346073873265
+    second: RogueSlime32x32_53
+  - first:
+      213: 4059971172067959932
+    second: RogueSlime32x32_54
+  - first:
+      213: -5812100051333384757
+    second: RogueSlime32x32_55
+  - first:
+      213: -6812241118557099652
+    second: RogueSlime32x32_56
+  - first:
+      213: -8528625648235001347
+    second: RogueSlime32x32_57
+  - first:
+      213: 8633358106405996525
+    second: RogueSlime32x32_58
+  - first:
+      213: 8399165950766883333
+    second: RogueSlime32x32_59
+  - first:
+      213: 3335513501895757528
+    second: RogueSlime32x32_60
+  - first:
+      213: 6231377541242506130
+    second: RogueSlime32x32_61
+  - first:
+      213: -6484711928913358181
+    second: RogueSlime32x32_62
+  - first:
+      213: 551648229263937827
+    second: RogueSlime32x32_63
+  - first:
+      213: -168820963284526937
+    second: RogueSlime32x32_64
+  - first:
+      213: -7789801128456296437
+    second: RogueSlime32x32_65
+  - first:
+      213: 3813444857789901881
+    second: RogueSlime32x32_66
+  - first:
+      213: -4058449448680523261
+    second: RogueSlime32x32_67
+  - first:
+      213: 6871238370677066799
+    second: RogueSlime32x32_68
+  - first:
+      213: 1367656235557286483
+    second: RogueSlime32x32_69
+  - first:
+      213: -8056458422388545457
+    second: RogueSlime32x32_70
+  - first:
+      213: 2996564692598640351
+    second: RogueSlime32x32_71
+  - first:
+      213: 9219207350220710947
+    second: RogueSlime32x32_72
+  - first:
+      213: 6696263530785904169
+    second: RogueSlime32x32_73
+  - first:
+      213: 1914819742122252902
+    second: RogueSlime32x32_74
+  - first:
+      213: 6859865167253990073
+    second: RogueSlime32x32_75
+  - first:
+      213: 7728761949297135366
+    second: RogueSlime32x32_76
+  - first:
+      213: 2763633440203883238
+    second: RogueSlime32x32_77
+  - first:
+      213: 3202898736127109668
+    second: RogueSlime32x32_78
+  - first:
+      213: 2457636324963127728
+    second: RogueSlime32x32_79
+  - first:
+      213: 5619309362567744915
+    second: RogueSlime32x32_80
+  - first:
+      213: -3013320746329910582
+    second: RogueSlime32x32_81
+  - first:
+      213: 4125035574468490456
+    second: RogueSlime32x32_82
+  - first:
+      213: -4461098531321008619
+    second: RogueSlime32x32_83
+  - first:
+      213: 781274231354775141
+    second: RogueSlime32x32_84
+  - first:
+      213: -781132385407693765
+    second: RogueSlime32x32_85
+  - first:
+      213: 1455316994885956953
+    second: RogueSlime32x32_86
+  - first:
+      213: 6771184601723932114
+    second: RogueSlime32x32_87
+  - first:
+      213: 3574293277085991837
+    second: RogueSlime32x32_88
+  - first:
+      213: 4396748138295879524
+    second: RogueSlime32x32_89
+  - first:
+      213: -8702215329592862734
+    second: RogueSlime32x32_90
+  - first:
+      213: -4391674697463911399
+    second: RogueSlime32x32_91
+  - first:
+      213: -2788140220610979201
+    second: RogueSlime32x32_92
+  - first:
+      213: -5268736363599996425
+    second: RogueSlime32x32_93
+  - first:
+      213: 8534551003004983197
+    second: RogueSlime32x32_94
+  - first:
+      213: 3393510895016009782
+    second: RogueSlime32x32_95
+  - first:
+      213: -3113193464331206161
+    second: RogueSlime32x32_96
+  - first:
+      213: 5197305705663007997
+    second: RogueSlime32x32_97
+  - first:
+      213: -5922686607372383116
+    second: RogueSlime32x32_98
+  - first:
+      213: -1845942466553901728
+    second: RogueSlime32x32_99
+  - first:
+      213: 477901907850648399
+    second: RogueSlime32x32_100
+  - first:
+      213: 702280463903088778
+    second: RogueSlime32x32_101
+  - first:
+      213: -8807250725678497414
+    second: RogueSlime32x32_102
+  - first:
+      213: -561924767624827915
+    second: RogueSlime32x32_103
+  - first:
+      213: 2897829540494826136
+    second: RogueSlime32x32_104
+  - first:
+      213: 3273627503040090981
+    second: RogueSlime32x32_105
+  - first:
+      213: -7419277457499257373
+    second: RogueSlime32x32_106
+  - first:
+      213: -406653539141740692
+    second: RogueSlime32x32_107
+  - first:
+      213: 1175762249510712291
+    second: RogueSlime32x32_108
+  - first:
+      213: -4882592772989787212
+    second: RogueSlime32x32_109
+  - first:
+      213: -7282828785543948668
+    second: RogueSlime32x32_110
+  - first:
+      213: -4467501151677737245
+    second: RogueSlime32x32_111
+  - first:
+      213: -6578461853144622930
+    second: RogueSlime32x32_112
+  - first:
+      213: -6984305042492379333
+    second: RogueSlime32x32_113
+  - first:
+      213: -6680043235726965712
+    second: RogueSlime32x32_114
+  - first:
+      213: 2418494485144220220
+    second: RogueSlime32x32_115
+  - first:
+      213: 6605395932834000563
+    second: RogueSlime32x32_116
+  - first:
+      213: -4796215670267371275
+    second: RogueSlime32x32_117
+  - first:
+      213: 4204688691044803938
+    second: RogueSlime32x32_118
+  - first:
+      213: -3804830514069710699
+    second: RogueSlime32x32_119
+  - first:
+      213: 6952615513014112353
+    second: RogueSlime32x32_120
+  - first:
+      213: 6730587833244516634
+    second: RogueSlime32x32_121
+  - first:
+      213: -1669890137448350129
+    second: RogueSlime32x32_122
+  - first:
+      213: -1612856889596528374
+    second: RogueSlime32x32_123
+  - first:
+      213: -5754226140170454560
+    second: RogueSlime32x32_124
+  - first:
+      213: 948706006677798305
+    second: RogueSlime32x32_125
+  - first:
+      213: 4122437825332131484
+    second: RogueSlime32x32_126
+  - first:
+      213: 1795485896844684101
+    second: RogueSlime32x32_127
+  - first:
+      213: 7975395960941889716
+    second: RogueSlime32x32_128
+  - first:
+      213: -7979882950955141168
+    second: RogueSlime32x32_129
+  - first:
+      213: -8867479199340660761
+    second: RogueSlime32x32_130
+  - first:
+      213: 1338217561198998557
+    second: RogueSlime32x32_131
+  - first:
+      213: 2383872591497530070
+    second: RogueSlime32x32_132
+  - first:
+      213: 5385222529101564196
+    second: RogueSlime32x32_133
+  - first:
+      213: 54814391517238033
+    second: RogueSlime32x32_134
+  - first:
+      213: 7600013507729222620
+    second: RogueSlime32x32_135
+  - first:
+      213: 1279007106270236768
+    second: RogueSlime32x32_136
+  - first:
+      213: 5821720568411111434
+    second: RogueSlime32x32_137
+  - first:
+      213: -6054355886345452236
+    second: RogueSlime32x32_138
+  - first:
+      213: -1333086274974042155
+    second: RogueSlime32x32_139
+  - first:
+      213: 348393416717047894
+    second: RogueSlime32x32_140
+  - first:
+      213: -1442178844999169305
+    second: RogueSlime32x32_141
+  - first:
+      213: -1988712353072985971
+    second: RogueSlime32x32_142
+  - first:
+      213: -6230448462071984581
+    second: RogueSlime32x32_143
+  - first:
+      213: -8787237261316973870
+    second: RogueSlime32x32_144
+  - first:
+      213: 4630266184838251755
+    second: RogueSlime32x32_145
+  - first:
+      213: 846294229778918249
+    second: RogueSlime32x32_146
+  - first:
+      213: 7157846092841959221
+    second: RogueSlime32x32_147
+  - first:
+      213: -6783125295074899900
+    second: RogueSlime32x32_148
+  - first:
+      213: -2690380315280318468
+    second: RogueSlime32x32_149
+  - first:
+      213: -5992489646877510932
+    second: RogueSlime32x32_150
+  - first:
+      213: -5460665237881135908
+    second: RogueSlime32x32_151
+  - first:
+      213: -2993414273475054638
+    second: RogueSlime32x32_152
+  - first:
+      213: -2208299617552220541
+    second: RogueSlime32x32_153
+  - first:
+      213: 4304495177732306196
+    second: RogueSlime32x32_154
+  - first:
+      213: -2143134977136909406
+    second: RogueSlime32x32_155
+  - first:
+      213: 8166455629918240682
+    second: RogueSlime32x32_156
+  - first:
+      213: 2583267469979982554
+    second: RogueSlime32x32_157
+  - first:
+      213: 7490561848982608778
+    second: RogueSlime32x32_158
+  - first:
+      213: 1286403788000131856
+    second: RogueSlime32x32_159
+  - first:
+      213: 435548427464952440
+    second: RogueSlime32x32_160
+  - first:
+      213: -2082812368425504745
+    second: RogueSlime32x32_161
+  - first:
+      213: 2463813248393571786
+    second: RogueSlime32x32_162
+  - first:
+      213: -1183248434256443705
+    second: RogueSlime32x32_163
+  - first:
+      213: 5284813602111419039
+    second: RogueSlime32x32_164
+  - first:
+      213: -6102540806508551948
+    second: RogueSlime32x32_165
+  - first:
+      213: 4114694224720786363
+    second: RogueSlime32x32_166
+  - first:
+      213: -3578627087590918225
+    second: RogueSlime32x32_167
+  - first:
+      213: -6453183067436742643
+    second: RogueSlime32x32_168
+  - first:
+      213: -5796265227262477271
+    second: RogueSlime32x32_169
+  - first:
+      213: 7245062944473676890
+    second: RogueSlime32x32_170
+  - first:
+      213: 2890914667371442987
+    second: RogueSlime32x32_171
+  - first:
+      213: 7999007178115043883
+    second: RogueSlime32x32_172
+  - first:
+      213: -5119229747922523049
+    second: RogueSlime32x32_173
+  - first:
+      213: -4322112057661040583
+    second: RogueSlime32x32_174
+  - first:
+      213: 2446218586431408502
+    second: RogueSlime32x32_175
+  - first:
+      213: 7618901556082268151
+    second: RogueSlime32x32_176
+  - first:
+      213: 7713895095212034979
+    second: RogueSlime32x32_177
+  - first:
+      213: 2029983410897197697
+    second: RogueSlime32x32_178
+  - first:
+      213: 6281168052490357265
+    second: RogueSlime32x32_179
+  - first:
+      213: 7624335247165846895
+    second: RogueSlime32x32_180
+  - first:
+      213: 5350080022646636165
+    second: RogueSlime32x32_181
+  - first:
+      213: -8635540588011037238
+    second: RogueSlime32x32_182
+  - first:
+      213: 8544448549766130287
+    second: RogueSlime32x32_183
+  - first:
+      213: -2647754767373433254
+    second: RogueSlime32x32_184
+  - first:
+      213: -8971872866288214313
+    second: RogueSlime32x32_185
+  - first:
+      213: 6927557990280704412
+    second: RogueSlime32x32_186
+  - first:
+      213: 4911944595947819431
+    second: RogueSlime32x32_187
+  - first:
+      213: 3907925269209172455
+    second: RogueSlime32x32_188
+  - first:
+      213: -9089811626957993903
+    second: RogueSlime32x32_189
+  - first:
+      213: -3489465137678091576
+    second: RogueSlime32x32_190
+  - first:
+      213: 138406942261758446
+    second: RogueSlime32x32_191
+  - first:
+      213: 6040312634400166668
+    second: RogueSlime32x32_192
+  - first:
+      213: -920936002610737326
+    second: RogueSlime32x32_193
+  - first:
+      213: 5271158399413908617
+    second: RogueSlime32x32_194
+  - first:
+      213: -5936360861803115383
+    second: RogueSlime32x32_195
+  - first:
+      213: -5729822970817934708
+    second: RogueSlime32x32_0
+  - first:
+      213: -7756743492536341725
+    second: RogueSlime32x32_1
+  - first:
+      213: 9071105621815674403
+    second: RogueSlime32x32_2
+  - first:
+      213: -7121681676906739359
+    second: RogueSlime32x32_3
+  - first:
+      213: -2362596934376693512
+    second: RogueSlime32x32_4
+  - first:
+      213: -5076009099671559831
+    second: RogueSlime32x32_5
+  - first:
+      213: 8351651084539651872
+    second: RogueSlime32x32_6
+  - first:
+      213: -1832478315971165058
+    second: RogueSlime32x32_7
+  - first:
+      213: 6841861714061353709
+    second: RogueSlime32x32_8
+  - first:
+      213: 6344012312004657119
+    second: RogueSlime32x32_9
+  - first:
+      213: -7542871196231625224
+    second: RogueSlime32x32_10
+  - first:
+      213: -929240888636574608
+    second: RogueSlime32x32_11
+  - first:
+      213: -8831037077959594821
+    second: RogueSlime32x32_12
+  - first:
+      213: -3115346482827296922
+    second: RogueSlime32x32_13
+  - first:
+      213: -6116715068974052676
+    second: RogueSlime32x32_14
+  - first:
+      213: 4368610602941570853
+    second: RogueSlime32x32_15
+  - first:
+      213: -9051447364829648109
+    second: RogueSlime32x32_16
+  - first:
+      213: -5625746327295002371
+    second: RogueSlime32x32_17
+  - first:
+      213: -6002613672866097462
+    second: RogueSlime32x32_18
+  - first:
+      213: 2813694004836483316
+    second: RogueSlime32x32_19
+  - first:
+      213: 6277480963588402574
+    second: RogueSlime32x32_20
+  - first:
+      213: -7487403975598324931
+    second: RogueSlime32x32_21
+  - first:
+      213: -4972718666048502497
+    second: RogueSlime32x32_22
+  - first:
+      213: -8865850423947691276
+    second: RogueSlime32x32_23
+  - first:
+      213: 1046796009161481258
+    second: RogueSlime32x32_24
+  - first:
+      213: 562860369875946541
+    second: RogueSlime32x32_25
+  - first:
+      213: 8049419482774961865
+    second: RogueSlime32x32_26
+  - first:
+      213: -6980148462928172727
+    second: RogueSlime32x32_27
+  - first:
+      213: 8951782716697033484
+    second: RogueSlime32x32_28
+  - first:
+      213: -8164904235470056275
+    second: RogueSlime32x32_29
+  - first:
+      213: -919873509047561577
+    second: RogueSlime32x32_30
+  - first:
+      213: 7875314758685838188
+    second: RogueSlime32x32_31
+  - first:
+      213: 5510276890911999212
+    second: RogueSlime32x32_32
+  - first:
+      213: 1573785480841238777
+    second: RogueSlime32x32_33
+  - first:
+      213: 5430875619517789085
+    second: RogueSlime32x32_34
+  - first:
+      213: -131926298847505016
+    second: RogueSlime32x32_35
+  - first:
+      213: 5358272502624022552
+    second: RogueSlime32x32_36
+  - first:
+      213: -2826071344710819815
+    second: RogueSlime32x32_37
+  - first:
+      213: -2717349012861933202
+    second: RogueSlime32x32_38
+  - first:
+      213: 6180833427277013601
+    second: RogueSlime32x32_39
+  - first:
+      213: 1835229064281782645
+    second: RogueSlime32x32_40
+  - first:
+      213: -3314807683019438619
+    second: RogueSlime32x32_41
+  - first:
+      213: -3067040293250644624
+    second: RogueSlime32x32_42
+  - first:
+      213: 5529281840485803190
+    second: RogueSlime32x32_43
+  - first:
+      213: -6469066239331960761
+    second: RogueSlime32x32_44
+  - first:
+      213: -7880982131888120684
+    second: RogueSlime32x32_45
+  - first:
+      213: -710565308426144147
+    second: RogueSlime32x32_46
+  - first:
+      213: -7032938706302430836
+    second: RogueSlime32x32_47
+  - first:
+      213: 967009456249807456
+    second: RogueSlime32x32_48
+  - first:
+      213: -4193511075763172143
+    second: RogueSlime32x32_49
+  - first:
+      213: 7440567928082907598
+    second: RogueSlime32x32_50
+  - first:
+      213: 8715723118772150523
+    second: RogueSlime32x32_51
+  - first:
+      213: -661612848982034900
+    second: RogueSlime32x32_52
+  - first:
+      213: -833270261968772464
+    second: RogueSlime32x32_53
+  - first:
+      213: -5160966700938166768
+    second: RogueSlime32x32_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RogueSlime32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a068ead549b70b0800000000000000
+      internalID: -5729822970817934708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6c89f3e28a5490800000000000000
+      internalID: -7756743492536341725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3264f54908a03ed70800000000000000
+      internalID: 9071105621815674403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169c0944f34ba2d90800000000000000
+      internalID: -7121681676906739359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ec031b9e563fd0800000000000000
+      internalID: -2362596934376693512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9612d612e946e89b0800000000000000
+      internalID: -5076009099671559831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027edf5996607e370800000000000000
+      internalID: 8351651084539651872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74cee53eaab196e0800000000000000
+      internalID: -1832478315971165058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2e8fcaafc23fe50800000000000000
+      internalID: 6841861714061353709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdffdb3f5957a0850800000000000000
+      internalID: 6344012312004657119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f596126c96525790800000000000000
+      internalID: -7542871196231625224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0747c0ac55caa13f0800000000000000
+      internalID: -929240888636574608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc2ae1019ad17580800000000000000
+      internalID: -8831037077959594821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ff0d231e014c4d0800000000000000
+      internalID: -3115346482827296922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac5817d001d1ba0800000000000000
+      internalID: -6116715068974052676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f565e823c60ac30800000000000000
+      internalID: 4368610602941570853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bee2c049cc26280800000000000000
+      internalID: -9051447364829648109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df87f1595855de1b0800000000000000
+      internalID: -5625746327295002371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d9e0faae62bca0800000000000000
+      internalID: -6002613672866097462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0cce03acf3c0720800000000000000
+      internalID: 2813694004836483316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8da6f64da71e1750800000000000000
+      internalID: 6277480963588402574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d334d9011c5671890800000000000000
+      internalID: -7487403975598324931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15893648ba5dfab0800000000000000
+      internalID: -4972718666048502497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faf9d0430c26f480800000000000000
+      internalID: -8865850423947691276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cdd569c67f68e00800000000000000
+      internalID: 1046796009161481258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc994368eafc700800000000000000
+      internalID: 562860369875946541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef8e63f5845bf60800000000000000
+      internalID: 8049419482774961865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9496da394f7812f90800000000000000
+      internalID: -6980148462928172727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b3537c3fe1b3c70800000000000000
+      internalID: 8951782716697033484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da499bb7bde60be80800000000000000
+      internalID: -8164904235470056275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7929deecae3fb33f0800000000000000
+      internalID: -919873509047561577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b4cdd3c0dba4d60800000000000000
+      internalID: 7875314758685838188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48ad833af687c40800000000000000
+      internalID: 5510276890911999212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8953a7e8537d510800000000000000
+      internalID: 1573785480841238777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93ffa81a985e5b40800000000000000
+      internalID: 5430875619517789085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88599aceabd4b2ef0800000000000000
+      internalID: -131926298847505016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f5a8a3786c5a40800000000000000
+      internalID: 5358272502624022552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910e99cc517c7c8d0800000000000000
+      internalID: -2826071344710819815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e692b9d48790a4ad0800000000000000
+      internalID: -2717349012861933202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e4b0314bb6c550800000000000000
+      internalID: 6180833427277013601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579fcf94c1b087910800000000000000
+      internalID: 1835229064281782645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e504e299ff6ff1d0800000000000000
+      internalID: -3314807683019438619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0754cf86a1faf65d0800000000000000
+      internalID: -3067040293250644624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4ac2dd984fbbc40800000000000000
+      internalID: 5529281840485803190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7487528a7824936a0800000000000000
+      internalID: -6469066239331960761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9b9b918021a290800000000000000
+      internalID: -7880982131888120684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d663b81ed909326f0800000000000000
+      internalID: -710565308426144147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819fbb328bf56e90800000000000000
+      internalID: -7032938706302430836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062a63e1af18b6d00800000000000000
+      internalID: 967009456249807456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc487f05e7adc5c0800000000000000
+      internalID: -4193511075763172143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1cb88db15324760800000000000000
+      internalID: 7440567928082907598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0e217aff774f870800000000000000
+      internalID: 8715723118772150523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2677958e9a71d6f0800000000000000
+      internalID: -661612848982034900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09264719c11af64f0800000000000000
+      internalID: -833270261968772464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RogueSlime32x32_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ef5f421209068b0800000000000000
+      internalID: -5160966700938166768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
