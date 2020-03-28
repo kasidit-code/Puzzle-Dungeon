@@ -9,7 +9,7 @@ public class TreasureChest : Interactable
     public Item contents;
     public Inventory playerInventory;
     public bool isOpen;
-    public Signal raisedItem;
+    public Signal raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
     private Animator anim;
@@ -45,7 +45,7 @@ public class TreasureChest : Interactable
         playerInventory.AddItem(contents);
         playerInventory.currentItem = contents;
         // raise the signal to the player to animate 
-        raisedItem.Raise();
+        raiseItem.Raise();
         // raise the context clue
         context.Raise();
         // set the chest opened
@@ -58,7 +58,7 @@ public class TreasureChest : Interactable
         // Dialog off
         dialogBox.SetActive(false);
         // raise the signal to the player to stop animating
-        raisedItem.Raise();
+        raiseItem.Raise();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
