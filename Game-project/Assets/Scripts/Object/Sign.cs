@@ -20,7 +20,7 @@ public class Sign : Interactable
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.L) && playerInRange)
+        if(Input.GetKeyDown(KeyCode.J) && playerInRange)
         {
             if(dialogBox.activeInHierarchy)
             {
@@ -31,13 +31,13 @@ public class Sign : Interactable
             }
         }
     }
-    // private void OnTriggerExit2D(Collider2D other)
-    // {
-    //     if(other.CompareTag("Player") && !other.isTrigger)
-    //     {
-    //         context.Raise();
-    //         playerInRange = false;
-    //         dialogBox.SetActive(false);
-    //     }
-    // }
+    public override void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("Player") && !other.isTrigger)
+        {
+            context.Raise();
+            playerInRange = false;
+            dialogBox.SetActive(false);
+        }
+    }
 }

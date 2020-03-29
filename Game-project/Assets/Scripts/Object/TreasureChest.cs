@@ -22,7 +22,7 @@ public class TreasureChest : Interactable
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.L) && playerInRange)
+        if(Input.GetKeyDown(KeyCode.K) && playerInRange)
         {
             if(!isOpen)
             {
@@ -61,7 +61,7 @@ public class TreasureChest : Interactable
         raiseItem.Raise();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public override void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player") && !other.isTrigger && !isOpen) 
         {
@@ -70,7 +70,7 @@ public class TreasureChest : Interactable
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public override void OnTriggerExit2D(Collider2D other)
     {
         if(other.CompareTag("Player") && !other.isTrigger && !isOpen)
         {
