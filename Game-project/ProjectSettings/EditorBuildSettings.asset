@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/InHouse/Housefloor2.unity
     guid: 01d36311cb4a1134e9d2bc8e694a178d
   - enabled: 1
-    path: Assets/Scenes/Cave.unity
+    path: Assets/Scenes/Cave/Cave.unity
     guid: fb92586796cf2b84ca5dae019dfeaa7b
+  - enabled: 1
+    path: Assets/Scenes/Cave/Cave2-1.unity
+    guid: 107ff2bbca1dbbc4cbf5b17eb9ded17c
+  - enabled: 1
+    path: Assets/Scenes/Cave/Cave2-2.unity
+    guid: caeafce9be99781469695bc4b3a6b7d3
+  - enabled: 1
+    path: Assets/Scenes/Cave/Cave2-3.unity
+    guid: b7cafc3ddc5449a4890c7e43356cbeec
   m_configObjects: {}
