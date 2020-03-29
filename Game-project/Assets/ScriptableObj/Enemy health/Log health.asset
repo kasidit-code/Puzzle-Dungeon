@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa60364222a36e740b5d2c256ff36ed4, type: 3}
   m_Name: Log health
   m_EditorClassIdentifier: 
-  initialValue: 5
-  RuntimeValue: 5
+  initialValue: 3
+  RuntimeValue: 3
