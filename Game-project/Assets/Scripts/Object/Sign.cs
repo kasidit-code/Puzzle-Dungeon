@@ -20,7 +20,7 @@ public class Sign : Interactable
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.J) && playerInRange)
+        if(Input.GetButtonDown("attack") && playerInRange)
         {
             if(dialogBox.activeInHierarchy)
             {

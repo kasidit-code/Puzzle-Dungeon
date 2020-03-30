@@ -541,6 +541,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3901d78d7c133d64db79154cdf182407,
         type: 2}
+    - target: {fileID: 5567744778848319258, guid: 7ebaa528b75805a4bb38c25757ef0644,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Overworld
+      objectReference: {fileID: 0}
     - target: {fileID: 6543016254436751392, guid: 7ebaa528b75805a4bb38c25757ef0644,
         type: 3}
       propertyPath: m_Name

@@ -1345,6 +1345,12 @@ MonoBehaviour:
   playerHealthSignal: {fileID: 11400000, guid: 34e6805105205f842b0f1b08bf8a49d3, type: 2}
   playerInventory: {fileID: 11400000, guid: 761e2a3071a624743a6fa494f0dbfd36, type: 2}
   receiveItemSprite: {fileID: 5776850427423389380}
+  flashColor: {r: 1, g: 0, b: 0, a: 0.5254902}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.07
+  numberOffFlashes: 4
+  triggerCollider: {fileID: 5531337358476163896}
+  mySprite: {fileID: 7908872160953874321}
 --- !u!61 &5531337358476163896
 BoxCollider2D:
   m_ObjectHideFlags: 0

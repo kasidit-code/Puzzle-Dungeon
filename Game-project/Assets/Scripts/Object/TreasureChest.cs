@@ -6,23 +6,34 @@ using UnityEngine.UI;
 public class TreasureChest : Interactable
 {
 
+    [Header("Contents")]
     public Item contents;
     public Inventory playerInventory;
     public bool isOpen;
+    public BoolValue storedOpen;
+
+    [Header("sSignals and Dialog")]
     public Signal raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
+
+    [Header("Animation")]
     private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        isOpen = storedOpen.RuntimeValue;
+        if(isOpen)
+        {
+            anim.SetBool("opened", true);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.K) && playerInRange)
+        if(Input.GetButtonDown("attack") && playerInRange)
         {
             if(!isOpen)
             {
@@ -51,6 +62,7 @@ public class TreasureChest : Interactable
         // set the chest opened
         isOpen = true;
         anim.SetBool("opened", true);
+        storedOpen.RuntimeValue = isOpen;
     }
 
     public void CheestOpened()
@@ -59,6 +71,7 @@ public class TreasureChest : Interactable
         dialogBox.SetActive(false);
         // raise the signal to the player to stop animating
         raiseItem.Raise();
+        playerInRange = false;
     }
 
     public override void OnTriggerEnter2D(Collider2D other)
