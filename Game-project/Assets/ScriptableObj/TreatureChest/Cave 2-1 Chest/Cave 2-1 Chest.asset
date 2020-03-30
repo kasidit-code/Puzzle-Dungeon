@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c1024c54382c1c4b859940aa5e45b08, type: 3}
-  m_Name: Chest A
+  m_Name: Cave 2-1 Chest
   m_EditorClassIdentifier: 
   initialValue: 0
   RuntimeValue: 0
