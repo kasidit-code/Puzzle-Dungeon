@@ -10,6 +10,7 @@ public class PauseManager : MonoBehaviour
     public GameObject pausePanel;
     public int movedScene;
     private int sceneToload;
+
     // Start is called before the first frame update
     void Start()
     {

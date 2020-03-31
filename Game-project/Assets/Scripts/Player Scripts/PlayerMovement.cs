@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState {
     walk,
@@ -28,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
     public int numberOffFlashes;
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
+
+    public int sceneToload;
 
     // Start is called before the first frame update
     void Start()
@@ -115,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(KnockCo(knockTime));
         }else{
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene(sceneToload);
         }
     }
     private IEnumerator KnockCo(float knockTime)

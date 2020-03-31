@@ -12,7 +12,7 @@ public class TreasureChest : Interactable
     public bool isOpen;
     public BoolValue storedOpen;
 
-    [Header("sSignals and Dialog")]
+    [Header("Signals and Dialog")]
     public Signal raiseItem;
     public GameObject dialogBox;
     public Text dialogText;

@@ -15,7 +15,8 @@ public class HeartManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InitHearts();   
+        InitHearts();
+        UpdateHearts();
     }
 
     public void InitHearts() 
