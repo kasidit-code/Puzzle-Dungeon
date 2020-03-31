@@ -2168,6 +2168,18 @@ PrefabInstance:
       propertyPath: playerPosition.y
       value: 19
       objectReference: {fileID: 0}
+    - target: {fileID: 5567744778848319258, guid: 7ebaa528b75805a4bb38c25757ef0644,
+        type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 01ea3fb430dea314a87245231c2c19d8,
+        type: 2}
+    - target: {fileID: 5567744778848319258, guid: 7ebaa528b75805a4bb38c25757ef0644,
+        type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: c5447ac9554250b4b8c9b812aca24e84,
+        type: 2}
     - target: {fileID: 6543016254436751392, guid: 7ebaa528b75805a4bb38c25757ef0644,
         type: 3}
       propertyPath: m_Name
