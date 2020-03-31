@@ -8,6 +8,19 @@ public class GameSaveManager : MonoBehaviour
 {
     public List<ScriptableObject> objects = new List<ScriptableObject>();
 
+    public void ResetScriptables()
+    {
+        for(int i = 0; i < objects.Count; i ++)
+        {
+            if(File.Exists(Application.persistentDataPath +
+                string.Format("/{0}.dat", i)))
+            {
+                File.Delete(Application.persistentDataPath +
+                    string.Format("/{0}.dat", i));
+            }
+        }
+    }
+
     private void OnEnable()
     {
         LoadScriptables();
