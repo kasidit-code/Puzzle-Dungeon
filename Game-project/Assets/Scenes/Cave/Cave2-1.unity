@@ -2246,6 +2246,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9053c861c31210f40a2c79f54c3cb217, type: 2}
   - {fileID: 11400000, guid: f75d764093c478c429812e7eccc7090f, type: 2}
   - {fileID: 11400000, guid: 761e2a3071a624743a6fa494f0dbfd36, type: 2}
+  - {fileID: 11400000, guid: c53eca07e08159541a7be8356c90226b, type: 2}
 --- !u!4 &1601797967
 Transform:
   m_ObjectHideFlags: 0
@@ -3036,9 +3037,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 869671371}
-        m_MethodName: 
-        m_Mode: 5
+      - m_Target: {fileID: 1601797966}
+        m_MethodName: SaveScriptables
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3464,9 +3465,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ButtonMoveScene
-        m_Mode: 5
+      - m_Target: {fileID: 1601797966}
+        m_MethodName: ResetScriptables
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
