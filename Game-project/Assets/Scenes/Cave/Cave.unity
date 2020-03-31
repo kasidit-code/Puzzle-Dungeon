@@ -4773,7 +4773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117899224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.476, y: 3.226, z: 0}
+  m_LocalPosition: {x: -36.476, y: 3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062816313}
@@ -4792,7 +4792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraChange: {x: 0, y: -20.3}
-  playerChange: {x: 0, y: -2.2, z: 0}
+  playerChange: {x: 0, y: -2.3, z: 0}
 --- !u!61 &1117899227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4806,7 +4806,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.6279831, y: 0.038113594}
+  m_Offset: {x: 0.6279831, y: 0.031388283}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4817,7 +4817,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.9918175, y: 0.4672451}
+  m_Size: {x: 2.9918175, y: 0.45379448}
   m_EdgeRadius: 0
 --- !u!4 &1143792496 stripped
 Transform:
@@ -5705,7 +5705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309434489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.827, y: 2.843, z: 0}
+  m_LocalPosition: {x: -37.827, y: 2.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062816313}
@@ -5724,7 +5724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraChange: {x: 0, y: 20.3}
-  playerChange: {x: 0, y: 2.2, z: 0}
+  playerChange: {x: 0, y: 2.3, z: 0}
 --- !u!61 &1309434492
 BoxCollider2D:
   m_ObjectHideFlags: 0
