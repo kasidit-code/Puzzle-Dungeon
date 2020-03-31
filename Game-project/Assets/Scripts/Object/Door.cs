@@ -27,7 +27,7 @@ public class Door : Interactable
                 if(playerInventory.nunmberOfKeys > 0)
                 {
                     //remove a player key
-                    playerInventory.nunmberOfKeys = 0;
+                    playerInventory.nunmberOfKeys --;
                     //If so, then call open
                     Open();
                 }
