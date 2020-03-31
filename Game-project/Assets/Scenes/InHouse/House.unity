@@ -546,6 +546,18 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Overworld
       objectReference: {fileID: 0}
+    - target: {fileID: 5567744778848319258, guid: 7ebaa528b75805a4bb38c25757ef0644,
+        type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: db5cd64adb839c84abddc11c638c9592,
+        type: 2}
+    - target: {fileID: 5567744778848319258, guid: 7ebaa528b75805a4bb38c25757ef0644,
+        type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 5ed41e8aa82f0ff45b73573345b07037,
+        type: 2}
     - target: {fileID: 6543016254436751392, guid: 7ebaa528b75805a4bb38c25757ef0644,
         type: 3}
       propertyPath: m_Name
