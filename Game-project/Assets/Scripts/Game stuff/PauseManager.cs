@@ -11,6 +11,8 @@ public class PauseManager : MonoBehaviour
     public int movedScene;
     private int sceneToload;
 
+    public FloatValue currentHealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +47,7 @@ public class PauseManager : MonoBehaviour
     {
         FadeToScene(movedScene);
         Resume();
+        CurrentHealth();
     }
 
     public void FadeToScene(int sceneName) {
@@ -55,5 +58,10 @@ public class PauseManager : MonoBehaviour
     public void onFadeComplete() {
         SceneManager.LoadScene(sceneToload);
     }
-    
+
+    public void CurrentHealth()
+    {
+        currentHealth.RuntimeValue = currentHealth.initialValue;
+    }
+
 }

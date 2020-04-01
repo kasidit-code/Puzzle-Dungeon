@@ -118,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(KnockCo(knockTime));
         }else{
             this.gameObject.SetActive(false);
+            currentHealth.RuntimeValue = currentHealth.initialValue;
             SceneManager.LoadScene(sceneToload);
         }
     }

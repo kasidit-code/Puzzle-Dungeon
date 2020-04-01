@@ -641,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 5634093749915103851, guid: 1bf9d680eb32d0149bcbfcea2456dc0f,
         type: 3}
       propertyPath: objects.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5634093749915103851, guid: 1bf9d680eb32d0149bcbfcea2456dc0f,
         type: 3}
@@ -2701,6 +2701,7 @@ MonoBehaviour:
   animator: {fileID: 787421926}
   pausePanel: {fileID: 13823177}
   movedScene: 0
+  currentHealth: {fileID: 0}
 --- !u!114 &1734702590
 MonoBehaviour:
   m_ObjectHideFlags: 0

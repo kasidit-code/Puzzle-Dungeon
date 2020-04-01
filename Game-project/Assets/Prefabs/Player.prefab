@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 16
+  speed: 4
   startingPosition: {fileID: 11400000, guid: 3901d78d7c133d64db79154cdf182407, type: 2}
   currentHealth: {fileID: 11400000, guid: c53eca07e08159541a7be8356c90226b, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 34e6805105205f842b0f1b08bf8a49d3, type: 2}
@@ -1351,6 +1351,7 @@ MonoBehaviour:
   numberOffFlashes: 4
   triggerCollider: {fileID: 5531337358476163896}
   mySprite: {fileID: 7908872160953874321}
+  sceneToload: 0
 --- !u!61 &5531337358476163896
 BoxCollider2D:
   m_ObjectHideFlags: 0

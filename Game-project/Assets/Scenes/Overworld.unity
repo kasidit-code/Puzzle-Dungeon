@@ -1491,6 +1491,7 @@ MonoBehaviour:
   animator: {fileID: 570253097}
   pausePanel: {fileID: 1455333493}
   movedScene: 0
+  currentHealth: {fileID: 11400000, guid: c53eca07e08159541a7be8356c90226b, type: 2}
 --- !u!1 &842368459
 GameObject:
   m_ObjectHideFlags: 0
